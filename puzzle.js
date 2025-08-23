@@ -130,5 +130,4 @@ desenhar()
 if (verificarVitoria()) {
     document.getElementById("vitoria").innerText = "Parabéns vc nao é Burro!";
     document.querySelectorAll("#partes button").forEach(botao => botao.disabled = true);
-
 }   
