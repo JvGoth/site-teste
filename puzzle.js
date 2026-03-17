@@ -42,7 +42,7 @@ function mover(ev) {
             // Exibe a última peça que faltava para mostrar o quebra-cabeça montado
             let btnFinal = document.getElementById('b15');
             btnFinal.hidden = false;
-            btnFinal.style.backgroundImage = "url('Cat-2.0.png')";
+            btnFinal.style.backgroundImage = "url('hamster.png')";
             btnFinal.style.backgroundPosition = "-300px -300px";
             btnFinal.style.backgroundSize = "400px 400px";
             btnFinal.style.border = "1px solid black";
